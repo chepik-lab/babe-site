@@ -3,9 +3,10 @@
   --paper-soft: #fcfaf6;
   --olive: #3b4a2b;
   --olive-deep: #2c3b24;
-  --olive-ui: #4e5c38;
-  --about-bg: #c5bbb3;
-  --about-text: #2c3b24;
+  --olive-ui: #5a819b;
+  --accent: #5a819b;
+  --about-bg: #5a819b;
+  --about-text: #fcfaf6;
   --line: rgba(59, 74, 43, 0.18);
   --font-mono: "Fraunces", "Times New Roman", Georgia, serif;
   --font-display: "Fraunces", "Times New Roman", Georgia, serif;
@@ -558,9 +559,9 @@ svg {
 }
 
 .menu-tabs button.is-active {
-  background: var(--olive);
+  background: var(--accent);
   color: var(--paper);
-  border-color: var(--olive);
+  border-color: var(--accent);
 }
 
 .menu-col--art {
@@ -928,8 +929,8 @@ svg {
 }
 
 .age-gate__btn--yes {
-  background: var(--olive);
-  border-color: var(--olive);
+  background: var(--accent);
+  border-color: var(--accent);
   color: var(--paper);
 }
 
