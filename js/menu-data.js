@@ -280,16 +280,16 @@ window.BABE_MENU = {
           title: "Белое · 125 мл",
           items: [
             {
-              id: "white-pinot",
-              name: "Pinot Grigio",
+              id: "white-riesling-erben",
+              name: "Riesling Halbtrocken",
               price: 14,
-              desc: "Castel Firmian, 2022 · Italy",
+              desc: "Erben, 2025 · Germany",
             },
             {
-              id: "white-sauv",
-              name: "Sauvignon Blanc",
+              id: "white-pecorino",
+              name: "Pecorino",
               price: 14,
-              desc: "Brancott Estate, 2021 · New Zealand",
+              desc: "Tombacco, 2025 · Italy",
             },
             {
               id: "white-verm",
@@ -298,10 +298,10 @@ window.BABE_MENU = {
               desc: "St. Giorgio, 2021 · Italy",
             },
             {
-              id: "white-riesling",
-              name: "Riesling",
+              id: "white-sauv-ms",
+              name: "Sauvignon Blanc",
               price: 14,
-              desc: "Reschke R-Series, 2023 · Australia",
+              desc: "Marlborough Springs, 2025 · New Zealand",
             },
           ],
         },
