@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="canonical" href="https://babeminsk.site/menu.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#FCFAF6" />
+  <title>babe · меню</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <main class="page">
+    <div class="page__inner">
+      <div class="page__top">
+        <a class="back-pill" href="index.html" data-i18n="menu.back">← На главную</a>
+        <div
+          class="lang-switch lang-switch--page"
+          role="group"
+          data-i18n-aria="lang.label"
+          aria-label="Язык"
+        >
+          <button type="button" data-lang="ru" aria-pressed="true">RU</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+
+      <div class="menu-tabs" role="tablist" data-i18n-aria="menu.tabs" aria-label="Карты меню">
+        <button type="button" class="is-active" data-menu-tab="breakfast" role="tab" aria-selected="true" data-i18n="menu.breakfast">Завтраки</button>
+        <button type="button" data-menu-tab="evening" role="tab" aria-selected="false" data-i18n="menu.evening">Вечер</button>
+        <button type="button" data-menu-tab="bar" role="tab" aria-selected="false" data-i18n="menu.bar">Бар</button>
+      </div>
+
+      <div id="menuRoot"></div>
+    </div>
+  </main>
+
+  <div class="age-gate" id="ageGate" hidden role="dialog" aria-modal="true" aria-labelledby="ageGateTitle">
+    <div class="age-gate__card">
+      <p class="age-gate__kicker" data-i18n="age.kicker">бар</p>
+      <h2 id="ageGateTitle" class="age-gate__title" data-i18n="age.title">Вам уже есть 18?</h2>
+      <p class="age-gate__text" data-i18n="age.text">Алкогольное меню показываем только совершеннолетним.</p>
+      <div class="age-gate__actions">
+        <button type="button" class="age-gate__btn age-gate__btn--yes" data-age="yes" data-i18n="age.yes">Да, 18+</button>
+        <button type="button" class="age-gate__btn" data-age="no" data-i18n="age.no">Нет</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/menu-i18n.js"></script>
+  <script src="js/menu-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
