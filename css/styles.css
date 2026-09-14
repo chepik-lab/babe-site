@@ -629,6 +629,16 @@ svg {
   font-family: inherit;
 }
 
+.menu-row__desc--side {
+  display: inline;
+  margin-top: 0;
+  margin-left: 0.45em;
+  font-size: 50%;
+  font-weight: 400;
+  vertical-align: baseline;
+  letter-spacing: 0;
+}
+
 .menu-row__price {
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
