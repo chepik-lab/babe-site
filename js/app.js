@@ -146,17 +146,22 @@
 
   function renderItem(item) {
     const descRaw = itemDesc(item);
-    const desc = descRaw
-      ? `<span class="menu-row__desc${isSideMeta(descRaw) ? " menu-row__desc--side" : ""}">${formatDesc(descRaw)}</span>`
-      : "";
+    let extra = "";
+    if (descRaw) {
+      if (isSideMeta(descRaw)) {
+        extra = `<span class="menu-row__meta">&nbsp;&nbsp;${formatDesc(descRaw)}</span>`;
+      } else {
+        extra = `<span class="menu-row__desc">${formatDesc(descRaw)}</span>`;
+      }
+    }
     return `<li class="menu-row">
-      <span class="menu-row__name">${esc(itemName(item))}${desc}</span>
+      <span class="menu-row__name">${esc(itemName(item))}${extra}</span>
       <span class="menu-row__price">${esc(item.price)}</span>
     </li>`;
   }
 
   function isSideMeta(desc) {
-    return /^\d[\d.,]*\s*(г|g|кг|kg)\b/i.test(String(desc).trim());
+    return /^\d[\d.,]*\s*(г|g|кг|kg)/i.test(String(desc).trim());
   }
 
   function filterBarSections(sections, adult) {
