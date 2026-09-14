@@ -9,13 +9,6 @@ window.BABE_MENU = {
 
   promos: [
     {
-      id: "wed35",
-      days: [3],
-      title: "Среда · 35 BYN",
-      text: "Тартар с кочуджаном + классическая итальянская + Asahi или Peroni. С 16:00 до закрытия, зал и терраса.",
-      badge: "сегодня",
-    },
-    {
       id: "sun-taco",
       days: [0],
       title: "Воскресенье · Taco party 35 BYN",
