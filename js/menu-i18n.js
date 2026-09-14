@@ -41,7 +41,6 @@
       en: "Cottage cheese donuts with boiled condensed milk cream",
       zh: "奶渣甜甜圈配炼乳奶油",
     },
-    "bf-coldnik": { en: "Coldnik with potato", zh: "土豆冷汤" },
 
     "ev-bread": {
       en: "Bread and whipped butter",

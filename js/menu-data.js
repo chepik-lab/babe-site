@@ -99,11 +99,6 @@ window.BABE_MENU = {
             },
           ],
         },
-        {
-          id: "bf-soup",
-          title: "Суп",
-          items: [{ id: "bf-coldnik", name: "Холодник с картофелем", price: 17 }],
-        },
       ],
     },
 
