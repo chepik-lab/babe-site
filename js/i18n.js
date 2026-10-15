@@ -89,7 +89,7 @@
       },
     },
     en: {
-      "meta.description": "babe — bistro & bar, Kalvariyskaya 21, Minsk.",
+      "meta.description": "babe — a cosy bistro & bar at Kalvariyskaya 21, Minsk. Breakfast until 4 pm, evening menu from 4:30 pm, cocktails, wine and house infusions.",
       "nav.menu": "Menu",
       "nav.about": "About",
       "nav.open": "Open menu",
@@ -307,7 +307,11 @@
       el.setAttribute("aria-label", t(key, lang));
     });
     const desc = document.querySelector('meta[name="description"]');
-    if (desc) desc.setAttribute("content", t("meta.description", lang));
+    if (desc) {
+      // Each page ships its own Russian description for search engines; keep it for ru.
+      if (!desc.dataset.ru) desc.dataset.ru = desc.getAttribute("content") || "";
+      desc.setAttribute("content", lang === "ru" ? desc.dataset.ru : t("meta.description", lang));
+    }
 
     document.querySelectorAll(".lang-switch [data-lang]").forEach((btn) => {
       const active = btn.getAttribute("data-lang") === lang;
