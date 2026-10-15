@@ -176,7 +176,7 @@ window.BABE_MENU = {
             {
               id: "ev-schnitzel",
               name: "Шницель Мельт & Крисп",
-              price: 27,
+              price: 32,
               desc: "420 г",
             },
             { id: "ev-gnocchi", name: "Ньокки с креветками том-ям", price: 31, desc: "340 г" },
