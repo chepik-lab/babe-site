@@ -173,14 +173,17 @@
         if (section.alcohol === "mixed") {
           const items = section.items.filter((item) => item.alcohol === false);
           if (!items.length) return null;
-          return {
-            ...section,
-            id: "bar-beer-soft",
-            title:
-              i18n?.sectionTitle("bar-beer-soft", "Пиво · безалкогольное") ||
-              "Пиво · безалкогольное",
-            items,
-          };
+          if (section.id === "bar-beer") {
+            return {
+              ...section,
+              id: "bar-beer-soft",
+              title:
+                i18n?.sectionTitle("bar-beer-soft", "Пиво · безалкогольное") ||
+                "Пиво · безалкогольное",
+              items,
+            };
+          }
+          return { ...section, items };
         }
         return null;
       })

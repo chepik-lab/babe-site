@@ -6,32 +6,72 @@
       zh: "康庞面包配打发黄油",
     },
     "bf-eggs": {
-      en: "Eggs your way",
-      zh: "自选鸡蛋",
+      en: "Eggs cooked your way",
+      zh: "按您的喜好做蛋",
       desc: {
-        en: "Sunny-side up 2 pcs · Scramble · French omelette · Soft-boiled 2 pcs",
+        en: "Sunny-side up — 2 pcs · Scramble · French omelette · Soft-boiled eggs — 2 pcs",
         zh: "太阳蛋 2 个 · 炒蛋 · 法式蛋饼 · 半熟蛋 2 个",
       },
     },
-    "bf-cheese": { en: "Cheese", zh: "奶酪" },
-    "bf-bacon": { en: "Bacon", zh: "培根" },
-    "bf-shrimp": { en: "Shrimp", zh: "虾" },
-    "bf-trout": { en: "Lightly salted trout", zh: "轻盐鳟鱼" },
-    "bf-sausage": { en: "Chicken sausages", zh: "鸡肉香肠" },
-    "bf-riet": { en: "Salmon rillettes", zh: "三文鱼肉酱" },
-    "bf-crepes": { en: "Crêpes with sour cream", zh: "酸奶油可丽饼" },
-    "bf-beans": { en: "Beans in tomato sauce", zh: "番茄酱豆子" },
-    "bf-guac": { en: "Guacamole", zh: "牛油果酱" },
-    "bf-tomato-avo": { en: "Tomato & avocado salad", zh: "番茄牛油果沙拉" },
-    "bf-leaves": { en: "Salad leaves", zh: "沙拉叶" },
-    "bf-rosti": { en: "Rösti", zh: "薯饼" },
-    "bf-anchovy": { en: "Anchovy toast", zh: "凤尾鱼吐司" },
-    "bf-turkish": { en: "Turkish eggs", zh: "土耳其鸡蛋" },
+    "bf-oats": {
+      en: "Whole-grain oatmeal",
+      zh: "全谷物燕麦粥",
+      desc: { en: "milk / water", zh: "牛奶 / 水" },
+    },
+    "bf-pancakes": {
+      en: "Pancakes",
+      zh: "松饼",
+      desc: { en: "200 g", zh: "200 克" },
+    },
+    "bf-three-cheese": { en: "Three-cheese sandwich", zh: "三种奶酪三明治" },
     "bf-avo-toast": { en: "Avocado toast", zh: "牛油果吐司" },
+    "bf-cheese": {
+      en: "Maasdam / Cheddar / Mozzarella",
+      zh: "马斯丹 / 切达 / 马苏里拉",
+      desc: { en: "80 g", zh: "80 克" },
+    },
+    "bf-bacon": { en: "Bacon", zh: "培根", desc: { en: "80 g", zh: "80 克" } },
+    "bf-parma": { en: "Parma ham", zh: "帕尔玛火腿", desc: { en: "80 g", zh: "80 克" } },
+    "bf-shrimp": { en: "Shrimp", zh: "虾", desc: { en: "80 g", zh: "80 克" } },
+    "bf-trout": {
+      en: "Lightly salted trout",
+      zh: "轻盐鳟鱼",
+      desc: { en: "80 g", zh: "80 克" },
+    },
+    "bf-sausage": {
+      en: "Chicken sausages",
+      zh: "鸡肉香肠",
+      desc: { en: "80 g", zh: "80 克" },
+    },
+    "bf-crepes": {
+      en: "Crêpes with sour cream",
+      zh: "酸奶油可丽饼",
+      desc: { en: "80 g", zh: "80 克" },
+    },
+    "bf-beans": {
+      en: "Beans in tomato sauce",
+      zh: "番茄酱豆子",
+      desc: { en: "80 g", zh: "80 克" },
+    },
+    "bf-guac": { en: "Guacamole", zh: "牛油果酱", desc: { en: "80 g", zh: "80 克" } },
+    "bf-tomato-avo": {
+      en: "Tomato & avocado salad",
+      zh: "番茄牛油果沙拉",
+      desc: { en: "80 g", zh: "80 克" },
+    },
+    "bf-leaves": { en: "Salad leaves", zh: "沙拉叶", desc: { en: "80 g", zh: "80 克" } },
+    "bf-shakshuka": { en: "Shakshuka", zh: "沙卡舒卡" },
+    "bf-turkish": { en: "Turkish eggs", zh: "土耳其鸡蛋" },
+    "bf-jam-cheese": {
+      en: "Sandwich with spiced jam and cheese",
+      zh: "香料果酱奶酪三明治",
+    },
+    "bf-syrniki": {
+      en: "Syrniki with vanilla cream and homemade jam",
+      zh: "奶渣饼配香草奶油与自制果酱",
+    },
+    "bf-tartare-toast": { en: "Tartare toast", zh: "鞑靼吐司" },
     "bf-eel": { en: "Eel / stracciatella toast", zh: "鳗鱼 / 斯特拉奇泰拉吐司" },
-    "bf-frittata": { en: "Frittata with prosciutto", zh: "意式蛋饼配生火腿" },
-    "bf-chicken": { en: "Chicken / pickles", zh: "鸡肉 / 酸黄瓜" },
-    "bf-mash": { en: "Mashed potatoes / mushroom ragout", zh: "土豆泥 / 蘑菇炖菜" },
     "bf-chorizo": { en: "Chorizo sandwich", zh: "西班牙香肠三明治" },
     "bf-french": {
       en: "French toast with vanilla cream and currant",
@@ -40,6 +80,10 @@
     "bf-donuts": {
       en: "Cottage cheese donuts with boiled condensed milk cream",
       zh: "奶渣甜甜圈配炼乳奶油",
+    },
+    "bf-pancakes-ganache": {
+      en: "Pancakes with chocolate ganache",
+      zh: "松饼配巧克力甘纳许",
     },
 
     "ev-bread": {
@@ -65,12 +109,12 @@
     "ev-croquettes": {
       en: "Chorizo croquettes",
       zh: "西班牙香肠可乐饼",
-      desc: { en: "290 g", zh: "290 克" },
+      desc: { en: "230 g", zh: "230 克" },
     },
     "ev-pepper": {
       en: "Warm pepper with tonnato sauce",
       zh: "暖椒配金枪鱼酱",
-      desc: { en: "180 g · seasonal", zh: "180 克 · 时令" },
+      desc: { en: "180 g", zh: "180 克" },
     },
     "ev-carpaccio": {
       en: "Beef carpaccio",
@@ -100,7 +144,7 @@
     "ev-beef-salad": {
       en: "Salad with warm beef",
       zh: "暖牛肉沙拉",
-      desc: { en: "360 g · seasonal", zh: "360 克 · 时令" },
+      desc: { en: "360 g", zh: "360 克" },
     },
     "ev-shrimp-salad": {
       en: "Shrimp salad with honey-mustard sauce",
@@ -120,17 +164,17 @@
     "ev-classic": {
       en: "Chicken sandwich Classic",
       zh: "经典鸡肉三明治",
-      desc: { en: "320 g · seasonal", zh: "320 克 · 时令" },
+      desc: { en: "320 g", zh: "320 克" },
     },
-    "ev-kiev": {
-      en: "Chicken Kiev with mash",
-      zh: "基辅鸡排配土豆泥",
+    "ev-schnitzel": {
+      en: "Schnitzel Melt & Crisp",
+      zh: "融化脆皮炸肉排",
       desc: { en: "420 g", zh: "420 克" },
     },
     "ev-gnocchi": {
       en: "Gnocchi with shrimp tom yum",
       zh: "冬阴功鲜虾意大利团子",
-      desc: { en: "340 g · seasonal", zh: "340 克 · 时令" },
+      desc: { en: "340 g", zh: "340 克" },
     },
     "ev-steak": {
       en: "Steak with French butter and fries",
@@ -140,7 +184,7 @@
     "ev-steak-pepper": {
       en: "Steak with pepper sauce",
       zh: "胡椒汁牛排",
-      desc: { en: "350 g · seasonal", zh: "350 克 · 时令" },
+      desc: { en: "350 g", zh: "350 克" },
     },
     "ev-salmon": {
       en: "Salmon, asparagus, radish",
@@ -155,7 +199,7 @@
     "ev-fondant": {
       en: "Fondant, porcini ice cream",
       zh: "熔岩蛋糕配牛肝菌冰淇淋",
-      desc: { en: "120 g · seasonal", zh: "120 克 · 时令" },
+      desc: { en: "220 g", zh: "220 克" },
     },
     "ev-donuts": {
       en: "Cottage cheese donuts with boiled condensed milk cream",
@@ -165,9 +209,81 @@
     "ev-chowder": {
       en: "Chowder with bacon and jalapeño",
       zh: "培根哈拉佩尼奥浓汤",
-      desc: { en: "320 g · seasonal", zh: "320 克 · 时令" },
+      desc: { en: "320 g", zh: "320 克" },
     },
 
+    "cock-gin-fiz": {
+      desc: {
+        en: "sparkling with gin, basil and cucumber",
+        zh: "气泡酒配金酒、罗勒与黄瓜",
+      },
+    },
+    "cock-lychee": {
+      desc: {
+        en: "lychee and prosecco with airy foam",
+        zh: "荔枝与普罗塞克配绵密泡沫",
+      },
+    },
+    "cock-cran": {
+      desc: {
+        en: "sparkling cranberry with rum and citrus",
+        zh: "蔓越莓气泡酒配朗姆与柑橘",
+      },
+    },
+    "cock-mango-lillet": {
+      desc: {
+        en: "mango–passion fruit with Lillet and bubbles",
+        zh: "芒果百香果配 Lillet 与气泡",
+      },
+    },
+    "cock-smash": {
+      desc: {
+        en: "gin with basil and fresh lemon",
+        zh: "金酒配罗勒与鲜柠檬",
+      },
+    },
+    "cock-aperol": {
+      desc: {
+        en: "citrus Aperol with gin and foam",
+        zh: "柑橘 Aperol 配金酒与泡沫",
+      },
+    },
+    "cock-mango-sour": {
+      desc: {
+        en: "mango–passion fruit with a light bitter note",
+        zh: "芒果百香果带淡淡苦韵",
+      },
+    },
+    "cock-gimlet": {
+      desc: {
+        en: "gin with kiwi and fresh lime",
+        zh: "金酒配猕猴桃与青柠",
+      },
+    },
+    "cock-blue": {
+      desc: {
+        en: "bourbon with blueberry and sweet almond",
+        zh: "波本配蓝莓与甜杏仁",
+      },
+    },
+    "cock-mai": {
+      desc: {
+        en: "tropical rum with orange and lime",
+        zh: "热带朗姆配橙与青柠",
+      },
+    },
+    "cock-layth": {
+      desc: {
+        en: "rum with kiwi, lemon and soda",
+        zh: "朗姆配猕猴桃、柠檬与苏打",
+      },
+    },
+    "cock-yuzu": {
+      desc: {
+        en: "tequila with yuzu and sweet lychee",
+        zh: "龙舌兰配柚子与甜荔枝",
+      },
+    },
     "bar-currant": { en: "Currant Wednesday", zh: "周三醋栗" },
     "bar-blueberry": { en: "Blueberry Thursday", zh: "周四蓝莓" },
     "bar-cherry": { en: "Cherry Friday", zh: "周五樱桃" },
@@ -175,27 +291,30 @@
     "bar-limoncello": { en: "Limoncello", zh: "柠檬甜酒" },
     "bar-kiwi": { en: "Kiwi", zh: "猕猴桃" },
     "bar-mango": { en: "Mango–passion fruit", zh: "芒果百香果" },
-    "bar-basil": { en: "Basil lemon", zh: "罗勒柠檬" },
+    "bar-basil": { en: "Basil-lemon", zh: "罗勒柠檬" },
     "bar-lychee": { en: "Lychee", zh: "荔枝" },
     "bar-berry": { en: "Blueberry", zh: "蓝莓" },
     "bar-rasp": { en: "Raspberry", zh: "覆盆子" },
     "bar-cran": { en: "Cranberry", zh: "蔓越莓" },
-    "bar-softs": { en: "Schweppes / Coca-Cola / Juice", zh: "汤力水 / 可乐 / 果汁" },
-
-    "wh-bush": { desc: { en: "Irish", zh: "爱尔兰" } },
-    "wh-jameson": { desc: { en: "Irish", zh: "爱尔兰" } },
-    "wh-jack": { desc: { en: "American", zh: "美国" } },
-    "wh-beam": { desc: { en: "American", zh: "美国" } },
+    "bar-softs": { en: "Schweppes / Coca-Cola / juice", zh: "汤力水 / 可乐 / 果汁" },
+    "sidra-garcon": {
+      desc: { en: "330 ml · house-made", zh: "330 ml · 自制" },
+    },
+    "hot-gluhwein": { en: "Mulled wine / non-alc mulled wine", zh: "热红酒 / 无酒精热红酒" },
+    "hot-sea": { en: "Sea-buckthorn tea, non-alc", zh: "沙棘茶（无酒精）" },
+    "hot-ginger": { en: "Ginger-lemon tea, non-alc", zh: "姜柠檬茶（无酒精）" },
+    "hot-grog": { en: "Spiced apple grog", zh: "香料苹果格罗格" },
+    "hot-wunsch-rasp": { en: "Raspberry Wunschpunsch", zh: "覆盆子热潘趣" },
+    "hot-wunsch-blue": { en: "Blueberry Wunschpunsch", zh: "蓝莓热潘趣" },
+    "hot-wunsch-cran": { en: "Cranberry Wunschpunsch", zh: "蔓越莓热潘趣" },
 
     "bar-coffee-espresso": { en: "Espresso", zh: "意式浓缩" },
-    "bar-coffee-doppio": { en: "Double espresso", zh: "双份浓缩" },
     "bar-coffee-americano": { en: "Americano", zh: "美式咖啡" },
     "bar-coffee-cappuccino": { en: "Cappuccino", zh: "卡布奇诺" },
     "bar-coffee-latte": { en: "Latte", zh: "拿铁" },
     "bar-coffee-raf": { en: "Raf", zh: "拉夫咖啡" },
     "bar-coffee-cocoa": { en: "Cocoa", zh: "可可" },
     "bar-coffee-flat": { en: "Flat white", zh: "扁白" },
-    "bar-coffee-matcha": { en: "Matcha latte", zh: "抹茶拿铁" },
     "bar-coffee-tonic": { en: "Espresso tonic", zh: "浓缩通宁" },
     "bar-coffee-bumble": { en: "Bumble", zh: "邦博咖啡" },
     "bar-coffee-plant": { en: "Plant milk", zh: "植物奶" },
