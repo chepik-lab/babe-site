@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="canonical" href="https://babeminsk.site/draft.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#FCFAF6" />
+  <title>babe · черновик меню</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=20261015" />
+</head>
+<body>
+  <main class="page">
+    <div class="page__inner">
+      <div class="page__top">
+        <a class="back-pill" href="menu.html" data-i18n="draft.back">← К меню</a>
+        <div
+          class="lang-switch lang-switch--page"
+          role="group"
+          data-i18n-aria="lang.label"
+          aria-label="Язык"
+        >
+          <button type="button" data-lang="ru" aria-pressed="true">RU</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+
+      <h1 class="draft-title" data-i18n="draft.title">Черновик меню</h1>
+      <p class="draft-intro" data-i18n="draft.intro">
+        Нажмите на позицию или «+» и расскажите, что понравилось и что стоит изменить.
+      </p>
+
+      <label class="draft-name">
+        <span class="draft-name__label" data-i18n="draft.nameLabel">Имя или Instagram (необязательно)</span>
+        <input id="draftName" class="draft-name__input" type="text" maxlength="80" autocomplete="name" />
+      </label>
+      <input id="draftHp" class="draft-hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+      <div class="menu-tabs" role="tablist" data-i18n-aria="menu.tabs" aria-label="Карты меню">
+        <button type="button" class="is-active" data-draft-tab="breakfast" role="tab" aria-selected="true" data-i18n="menu.breakfast">Завтраки</button>
+        <button type="button" data-draft-tab="evening" role="tab" aria-selected="false" data-i18n="menu.evening">Вечер</button>
+        <button type="button" data-draft-tab="bar" role="tab" aria-selected="false" data-i18n="menu.bar">Бар</button>
+      </div>
+
+      <div id="draftRoot"></div>
+    </div>
+  </main>
+
+  <div class="age-gate" id="ageGate" hidden role="dialog" aria-modal="true" aria-labelledby="ageGateTitle">
+    <div class="age-gate__card">
+      <p class="age-gate__kicker" data-i18n="age.kicker">бар</p>
+      <h2 id="ageGateTitle" class="age-gate__title" data-i18n="age.title">Вам уже есть 18?</h2>
+      <p class="age-gate__text" data-i18n="age.text">Алкогольное меню показываем только совершеннолетним.</p>
+      <div class="age-gate__actions">
+        <button type="button" class="age-gate__btn age-gate__btn--yes" data-age="yes" data-i18n="age.yes">Да, 18+</button>
+        <button type="button" class="age-gate__btn" data-age="no" data-i18n="age.no">Нет</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/i18n.js?v=20261015"></script>
+  <script src="js/menu-i18n.js?v=20261014"></script>
+  <script src="js/menu-data.js?v=20261015"></script>
+  <script src="js/draft.js?v=20261015"></script>
+</body>
+</html>
