@@ -1,0 +1,21 @@
+# babe · bistro & bar — babeminsk.site
+# Search engines and AI assistants are welcome to read everything.
+
+User-agent: *
+Allow: /
+
+# AI search / assistants
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: YandexAdditional
+Allow: /
+
+Sitemap: https://babeminsk.site/sitemap.xml
