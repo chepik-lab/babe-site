@@ -36,7 +36,7 @@
       "lang.label": "Язык",
       sections: {
         "bf-constructor": "Конструктор",
-        "bf-addons": "Добавки",
+        "bf-addons": "Собери сам",
         "bf-ready": "Собрали для тебя",
         "bf-sweet": "На сладкое",
         "bf-soup": "Суп",
@@ -51,7 +51,9 @@
         "bar-sweet": "Коктейли · сладкие",
         "bar-infusions": "Настойки · 40 мл",
         "bar-lemonades": "Лимонады",
-        "bar-softs": "Безалкогольные",
+        "bar-softs": "Напитки",
+        "bar-hot": "Тёплые напитки · 600 мл",
+        "bar-bourbon": "Бурбон · 40 мл",
         "bar-sparkling-wine": "Игристое",
         "bar-sidra": "Сидр",
         "bar-white": "Белое · 125 мл",
@@ -70,8 +72,8 @@
         "bar-coffee": "Кофе и чай",
       },
       notes: {
-        "bf-constructor": "Собери свой завтрак",
         "bar-infusions": "Ср–сб настойка дня 2=1",
+        "bar-sweet": "По вашему желанию мы приготовим любой классический коктейль",
       },
     },
     en: {
@@ -108,7 +110,7 @@
       "lang.label": "Language",
       sections: {
         "bf-constructor": "Build your own",
-        "bf-addons": "Add-ons",
+        "bf-addons": "Build your own",
         "bf-ready": "Made for you",
         "bf-sweet": "Sweet",
         "bf-soup": "Soup",
@@ -124,6 +126,8 @@
         "bar-infusions": "Infusions · 40 ml",
         "bar-lemonades": "Lemonades",
         "bar-softs": "Soft drinks",
+        "bar-hot": "Hot drinks · 600 ml",
+        "bar-bourbon": "Bourbon · 40 ml",
         "bar-sparkling-wine": "Sparkling",
         "bar-sidra": "Cider",
         "bar-white": "White · 125 ml",
@@ -142,8 +146,8 @@
         "bar-coffee": "Coffee & tea",
       },
       notes: {
-        "bf-constructor": "Build your breakfast",
         "bar-infusions": "Wed–Sat infusion of the day 2=1",
+        "bar-sweet": "Any classic cocktail on request",
       },
     },
     zh: {
@@ -180,7 +184,7 @@
       "lang.label": "语言",
       sections: {
         "bf-constructor": "自己搭配",
-        "bf-addons": "加料",
+        "bf-addons": "自己搭配",
         "bf-ready": "为你准备",
         "bf-sweet": "甜品",
         "bf-soup": "汤",
@@ -196,6 +200,8 @@
         "bar-infusions": "浸泡酒 · 40 ml",
         "bar-lemonades": "柠檬水",
         "bar-softs": "软饮",
+        "bar-hot": "热饮 · 600 ml",
+        "bar-bourbon": "波本 · 40 ml",
         "bar-sparkling-wine": "起泡酒",
         "bar-sidra": "苹果酒",
         "bar-white": "白葡萄酒 · 125 ml",
@@ -214,8 +220,8 @@
         "bar-coffee": "咖啡与茶",
       },
       notes: {
-        "bf-constructor": "自己搭配早餐",
         "bar-infusions": "周三至周六当日浸泡酒 2=1",
+        "bar-sweet": "可按您的意愿调制任意经典鸡尾酒",
       },
     },
   };
